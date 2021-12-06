@@ -54,7 +54,7 @@ extension AtomViewProtocol {
                 // отправляем нашу задачу на главнй поток в нужном режиме
                 // исполнение этой операции произойдет, когда UIKit посчитает это безопасным
                 // для восприятия пользователя
-                RunLoop.main.perform(inModes: [.default], block: {
+                RunLoop.main.perform(inModes: [RunLoop.Mode.default], block: {
                     self?.sensor(iSense: iSense)
                 })
             } else {
