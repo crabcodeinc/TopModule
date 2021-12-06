@@ -1,0 +1,6 @@
+framework module TopModule {
+  umbrella header "TopModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

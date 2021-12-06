@@ -1,0 +1,16 @@
+PODS:
+  - TopModule (1.0.2)
+
+DEPENDENCIES:
+  - TopModule (from `../TopModule`)
+
+EXTERNAL SOURCES:
+  TopModule:
+    :path: "../TopModule"
+
+SPEC CHECKSUMS:
+  TopModule: 0dfd74ab20436686ea4866101b56f79a6cb229bd
+
+PODFILE CHECKSUM: 8e0b8e610b806b4e05b0bc36bc6335232ce5cddc
+
+COCOAPODS: 1.11.2
