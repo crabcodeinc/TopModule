@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/crabcodeinc/TopModule.git", :branch => "main", :tag => "1.0.5" }
   spec.source_files = "TopModule/**/*.{h,swift}"
-  # spec.swift_version = '4.0'
+  spec.swift_version = '5.0'
 end
