@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
+	<key>Identifier</key>
+	<string>com.crabcode.Block</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the Block to create</string>
+			<key>Identifier</key>
+			<string>BlockName</string>
+			<key>Name</key>
+			<string>New BlockName Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___BlockView</string>
+			<key>Description</key>
+			<string>Block View name</string>
+			<key>Identifier</key>
+			<string>blockViewName</string>
+			<key>Name</key>
+			<string>View:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___BlockViewModel</string>
+			<key>Description</key>
+			<string>BlockViewModel BlockName name</string>
+			<key>Identifier</key>
+			<string>viewModelBlockName</string>
+			<key>Name</key>
+			<string>Block View Model:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___BlockSenses</string>
+			<key>Description</key>
+			<string>Senses name</string>
+			<key>Identifier</key>
+			<string>sensesName</string>
+			<key>Name</key>
+			<string>Sense:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___AtomView</string>
+			<key>Description</key>
+			<string>Atom View name</string>
+			<key>Identifier</key>
+			<string>AtomViewName</string>
+			<key>Name</key>
+			<string>View:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___AtomViewModel</string>
+			<key>Description</key>
+			<string>AtomViewModel BlockName name</string>
+			<key>Identifier</key>
+			<string>viewModelAtomBlockName</string>
+			<key>Name</key>
+			<string>Atom View Model:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___AtomSenses</string>
+			<key>Description</key>
+			<string>Atom Senses name</string>
+			<key>Identifier</key>
+			<string>atomSensesName</string>
+			<key>Name</key>
+			<string>AtomSense:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___BlockFabric</string>
+			<key>Description</key>
+			<string>Block Fabric name</string>
+			<key>Identifier</key>
+			<string>blockFabricName</string>
+			<key>Name</key>
+			<string>BlockFabric:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Summary</key>
+	<string>This generates a new Block module using MVVM arc.</string>
+</dict>
+</plist>
