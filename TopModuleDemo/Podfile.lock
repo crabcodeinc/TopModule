@@ -1,16 +1,23 @@
 PODS:
-  - TopModule (1.0.2)
+  - SnapKit (5.0.1)
+  - TopModule (1.0.5)
 
 DEPENDENCIES:
+  - SnapKit (~> 5.0.0)
   - TopModule (from `../TopModule`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   TopModule:
     :path: "../TopModule"
 
 SPEC CHECKSUMS:
-  TopModule: 0dfd74ab20436686ea4866101b56f79a6cb229bd
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  TopModule: 4eb86db474cfac847a583a7bd03b550b08d18b9e
 
-PODFILE CHECKSUM: 8e0b8e610b806b4e05b0bc36bc6335232ce5cddc
+PODFILE CHECKSUM: c60fa9378ef22b74ac59ffd9a4562b9a349aa210
 
 COCOAPODS: 1.11.2

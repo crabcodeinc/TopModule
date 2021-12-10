@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,34 @@
 		A193E382275ECA9C0053EDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A193E380275ECA9C0053EDB0 /* LaunchScreen.storyboard */; };
 		A193E38D275ECA9C0053EDB0 /* TopModuleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193E38C275ECA9C0053EDB0 /* TopModuleDemoTests.swift */; };
 		A193E398275ECA9C0053EDB0 /* TopModuleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193E397275ECA9C0053EDB0 /* TopModuleDemoUITests.swift */; };
+		A19710A82764127700519F3D /* FNTestTwoFeatureNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710822764127700519F3D /* FNTestTwoFeatureNavigator.swift */; };
+		A19710A92764127700519F3D /* TwoFNAtomSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710852764127700519F3D /* TwoFNAtomSenses.swift */; };
+		A19710AA2764127700519F3D /* TwoFNAtomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710862764127700519F3D /* TwoFNAtomViewModel.swift */; };
+		A19710AB2764127700519F3D /* TwoFNAtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710872764127700519F3D /* TwoFNAtomView.swift */; };
+		A19710AC2764127700519F3D /* TwoFNBlockSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710892764127700519F3D /* TwoFNBlockSenses.swift */; };
+		A19710AD2764127700519F3D /* TwoFNBlockFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197108A2764127700519F3D /* TwoFNBlockFabric.swift */; };
+		A19710AE2764127700519F3D /* TwoFNBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197108B2764127700519F3D /* TwoFNBlockView.swift */; };
+		A19710AF2764127700519F3D /* TwoFNBlockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197108C2764127700519F3D /* TwoFNBlockViewModel.swift */; };
+		A19710B02764127700519F3D /* OneFNAtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197108F2764127700519F3D /* OneFNAtomView.swift */; };
+		A19710B12764127700519F3D /* OneFNAtomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710902764127700519F3D /* OneFNAtomViewModel.swift */; };
+		A19710B22764127700519F3D /* OneFNAtomSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710912764127700519F3D /* OneFNAtomSenses.swift */; };
+		A19710B32764127700519F3D /* OneFNBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710932764127700519F3D /* OneFNBlockView.swift */; };
+		A19710B42764127700519F3D /* OneFNBlockFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710942764127700519F3D /* OneFNBlockFabric.swift */; };
+		A19710B52764127700519F3D /* OneFNBlockSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710952764127700519F3D /* OneFNBlockSenses.swift */; };
+		A19710B62764127700519F3D /* OneFNBlockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710962764127700519F3D /* OneFNBlockViewModel.swift */; };
+		A19710B72764127700519F3D /* NewFeatueSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710982764127700519F3D /* NewFeatueSenses.swift */; };
+		A19710B82764127700519F3D /* NewFeatueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710992764127700519F3D /* NewFeatueViewModel.swift */; };
+		A19710B92764127700519F3D /* NewFeatueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197109A2764127700519F3D /* NewFeatueView.swift */; };
+		A19710BA2764127700519F3D /* FeatureBLockFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197109C2764127700519F3D /* FeatureBLockFabric.swift */; };
+		A19710BB2764127700519F3D /* FeatureActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197109E2764127700519F3D /* FeatureActionViewModel.swift */; };
+		A19710BC2764127700519F3D /* FeatureActionSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A197109F2764127700519F3D /* FeatureActionSenses.swift */; };
+		A19710BD2764127700519F3D /* FeatureActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710A02764127700519F3D /* FeatureActionView.swift */; };
+		A19710BE2764127700519F3D /* FeatureViewoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710A22764127700519F3D /* FeatureViewoutViewModel.swift */; };
+		A19710BF2764127700519F3D /* FeatureViewoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710A32764127700519F3D /* FeatureViewoutView.swift */; };
+		A19710C02764127700519F3D /* FeatureViewoutSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710A42764127700519F3D /* FeatureViewoutSenses.swift */; };
+		A19710C12764127700519F3D /* FeatureBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710A52764127700519F3D /* FeatureBlockView.swift */; };
+		A19710C22764127700519F3D /* FeatureBlockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710A62764127700519F3D /* FeatureBlockViewModel.swift */; };
+		A19710C32764127700519F3D /* FeatureBlockSenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19710A72764127700519F3D /* FeatureBlockSenses.swift */; };
 		B3EC8E43207A3832075C5711 /* Pods_TopModuleDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EF91B0967FF91C699A947D /* Pods_TopModuleDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +86,34 @@
 		A193E393275ECA9C0053EDB0 /* TopModuleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopModuleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A193E397275ECA9C0053EDB0 /* TopModuleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopModuleDemoUITests.swift; sourceTree = "<group>"; };
 		A193E399275ECA9C0053EDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19710822764127700519F3D /* FNTestTwoFeatureNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FNTestTwoFeatureNavigator.swift; sourceTree = "<group>"; };
+		A19710852764127700519F3D /* TwoFNAtomSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoFNAtomSenses.swift; sourceTree = "<group>"; };
+		A19710862764127700519F3D /* TwoFNAtomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoFNAtomViewModel.swift; sourceTree = "<group>"; };
+		A19710872764127700519F3D /* TwoFNAtomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoFNAtomView.swift; sourceTree = "<group>"; };
+		A19710892764127700519F3D /* TwoFNBlockSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoFNBlockSenses.swift; sourceTree = "<group>"; };
+		A197108A2764127700519F3D /* TwoFNBlockFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoFNBlockFabric.swift; sourceTree = "<group>"; };
+		A197108B2764127700519F3D /* TwoFNBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoFNBlockView.swift; sourceTree = "<group>"; };
+		A197108C2764127700519F3D /* TwoFNBlockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoFNBlockViewModel.swift; sourceTree = "<group>"; };
+		A197108F2764127700519F3D /* OneFNAtomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneFNAtomView.swift; sourceTree = "<group>"; };
+		A19710902764127700519F3D /* OneFNAtomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneFNAtomViewModel.swift; sourceTree = "<group>"; };
+		A19710912764127700519F3D /* OneFNAtomSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneFNAtomSenses.swift; sourceTree = "<group>"; };
+		A19710932764127700519F3D /* OneFNBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneFNBlockView.swift; sourceTree = "<group>"; };
+		A19710942764127700519F3D /* OneFNBlockFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneFNBlockFabric.swift; sourceTree = "<group>"; };
+		A19710952764127700519F3D /* OneFNBlockSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneFNBlockSenses.swift; sourceTree = "<group>"; };
+		A19710962764127700519F3D /* OneFNBlockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneFNBlockViewModel.swift; sourceTree = "<group>"; };
+		A19710982764127700519F3D /* NewFeatueSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatueSenses.swift; sourceTree = "<group>"; };
+		A19710992764127700519F3D /* NewFeatueViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatueViewModel.swift; sourceTree = "<group>"; };
+		A197109A2764127700519F3D /* NewFeatueView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatueView.swift; sourceTree = "<group>"; };
+		A197109C2764127700519F3D /* FeatureBLockFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureBLockFabric.swift; sourceTree = "<group>"; };
+		A197109E2764127700519F3D /* FeatureActionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureActionViewModel.swift; sourceTree = "<group>"; };
+		A197109F2764127700519F3D /* FeatureActionSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureActionSenses.swift; sourceTree = "<group>"; };
+		A19710A02764127700519F3D /* FeatureActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureActionView.swift; sourceTree = "<group>"; };
+		A19710A22764127700519F3D /* FeatureViewoutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureViewoutViewModel.swift; sourceTree = "<group>"; };
+		A19710A32764127700519F3D /* FeatureViewoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureViewoutView.swift; sourceTree = "<group>"; };
+		A19710A42764127700519F3D /* FeatureViewoutSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureViewoutSenses.swift; sourceTree = "<group>"; };
+		A19710A52764127700519F3D /* FeatureBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureBlockView.swift; sourceTree = "<group>"; };
+		A19710A62764127700519F3D /* FeatureBlockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureBlockViewModel.swift; sourceTree = "<group>"; };
+		A19710A72764127700519F3D /* FeatureBlockSenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureBlockSenses.swift; sourceTree = "<group>"; };
 		A8E7AB9BFBF298145616C4F0 /* Pods-TopModuleDemo-TopModuleDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopModuleDemo-TopModuleDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TopModuleDemo-TopModuleDemoUITests/Pods-TopModuleDemo-TopModuleDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACC5DB0913618FC9C6EE325A /* Pods-TopModuleDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopModuleDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TopModuleDemoTests/Pods-TopModuleDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5572210A749EDA573B1B147 /* Pods_TopModuleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopModuleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +172,7 @@
 		A193E374275ECA9B0053EDB0 /* TopModuleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A19710802764127700519F3D /* Example */,
 				A193E375275ECA9B0053EDB0 /* AppDelegate.swift */,
 				A193E377275ECA9B0053EDB0 /* SceneDelegate.swift */,
 				A193E379275ECA9B0053EDB0 /* ViewController.swift */,
@@ -145,6 +202,129 @@
 			path = TopModuleDemoUITests;
 			sourceTree = "<group>";
 		};
+		A19710802764127700519F3D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A19710812764127700519F3D /* Flow Example */,
+				A19710972764127700519F3D /* Atom Example */,
+				A197109B2764127700519F3D /* Block Example */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		A19710812764127700519F3D /* Flow Example */ = {
+			isa = PBXGroup;
+			children = (
+				A19710822764127700519F3D /* FNTestTwoFeatureNavigator.swift */,
+				A19710832764127700519F3D /* Block Two */,
+				A197108D2764127700519F3D /* Block One */,
+			);
+			path = "Flow Example";
+			sourceTree = "<group>";
+		};
+		A19710832764127700519F3D /* Block Two */ = {
+			isa = PBXGroup;
+			children = (
+				A19710842764127700519F3D /* Atoms */,
+				A19710882764127700519F3D /* Block */,
+			);
+			path = "Block Two";
+			sourceTree = "<group>";
+		};
+		A19710842764127700519F3D /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				A19710852764127700519F3D /* TwoFNAtomSenses.swift */,
+				A19710862764127700519F3D /* TwoFNAtomViewModel.swift */,
+				A19710872764127700519F3D /* TwoFNAtomView.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		A19710882764127700519F3D /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				A19710892764127700519F3D /* TwoFNBlockSenses.swift */,
+				A197108A2764127700519F3D /* TwoFNBlockFabric.swift */,
+				A197108B2764127700519F3D /* TwoFNBlockView.swift */,
+				A197108C2764127700519F3D /* TwoFNBlockViewModel.swift */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		A197108D2764127700519F3D /* Block One */ = {
+			isa = PBXGroup;
+			children = (
+				A197108E2764127700519F3D /* Atoms */,
+				A19710922764127700519F3D /* Block */,
+			);
+			path = "Block One";
+			sourceTree = "<group>";
+		};
+		A197108E2764127700519F3D /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				A197108F2764127700519F3D /* OneFNAtomView.swift */,
+				A19710902764127700519F3D /* OneFNAtomViewModel.swift */,
+				A19710912764127700519F3D /* OneFNAtomSenses.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		A19710922764127700519F3D /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				A19710932764127700519F3D /* OneFNBlockView.swift */,
+				A19710942764127700519F3D /* OneFNBlockFabric.swift */,
+				A19710952764127700519F3D /* OneFNBlockSenses.swift */,
+				A19710962764127700519F3D /* OneFNBlockViewModel.swift */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		A19710972764127700519F3D /* Atom Example */ = {
+			isa = PBXGroup;
+			children = (
+				A19710982764127700519F3D /* NewFeatueSenses.swift */,
+				A19710992764127700519F3D /* NewFeatueViewModel.swift */,
+				A197109A2764127700519F3D /* NewFeatueView.swift */,
+			);
+			path = "Atom Example";
+			sourceTree = "<group>";
+		};
+		A197109B2764127700519F3D /* Block Example */ = {
+			isa = PBXGroup;
+			children = (
+				A197109C2764127700519F3D /* FeatureBLockFabric.swift */,
+				A197109D2764127700519F3D /* featureActionAtom */,
+				A19710A12764127700519F3D /* featureViewoutAtom */,
+				A19710A52764127700519F3D /* FeatureBlockView.swift */,
+				A19710A62764127700519F3D /* FeatureBlockViewModel.swift */,
+				A19710A72764127700519F3D /* FeatureBlockSenses.swift */,
+			);
+			path = "Block Example";
+			sourceTree = "<group>";
+		};
+		A197109D2764127700519F3D /* featureActionAtom */ = {
+			isa = PBXGroup;
+			children = (
+				A197109E2764127700519F3D /* FeatureActionViewModel.swift */,
+				A197109F2764127700519F3D /* FeatureActionSenses.swift */,
+				A19710A02764127700519F3D /* FeatureActionView.swift */,
+			);
+			path = featureActionAtom;
+			sourceTree = "<group>";
+		};
+		A19710A12764127700519F3D /* featureViewoutAtom */ = {
+			isa = PBXGroup;
+			children = (
+				A19710A22764127700519F3D /* FeatureViewoutViewModel.swift */,
+				A19710A32764127700519F3D /* FeatureViewoutView.swift */,
+				A19710A42764127700519F3D /* FeatureViewoutSenses.swift */,
+			);
+			path = featureViewoutAtom;
+			sourceTree = "<group>";
+		};
 		E318A57FEC357F463B79DE76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +345,6 @@
 				4E93BCB2870B08CCE88DC180 /* Pods-TopModuleDemoTests.debug.xcconfig */,
 				ACC5DB0913618FC9C6EE325A /* Pods-TopModuleDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,9 +586,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19710B32764127700519F3D /* OneFNBlockView.swift in Sources */,
+				A19710AA2764127700519F3D /* TwoFNAtomViewModel.swift in Sources */,
+				A19710C32764127700519F3D /* FeatureBlockSenses.swift in Sources */,
+				A19710AD2764127700519F3D /* TwoFNBlockFabric.swift in Sources */,
+				A19710A92764127700519F3D /* TwoFNAtomSenses.swift in Sources */,
+				A19710B72764127700519F3D /* NewFeatueSenses.swift in Sources */,
 				A193E37A275ECA9B0053EDB0 /* ViewController.swift in Sources */,
+				A19710B62764127700519F3D /* OneFNBlockViewModel.swift in Sources */,
+				A19710C22764127700519F3D /* FeatureBlockViewModel.swift in Sources */,
+				A19710BC2764127700519F3D /* FeatureActionSenses.swift in Sources */,
+				A19710BF2764127700519F3D /* FeatureViewoutView.swift in Sources */,
+				A19710BD2764127700519F3D /* FeatureActionView.swift in Sources */,
+				A19710AC2764127700519F3D /* TwoFNBlockSenses.swift in Sources */,
+				A19710B12764127700519F3D /* OneFNAtomViewModel.swift in Sources */,
+				A19710BE2764127700519F3D /* FeatureViewoutViewModel.swift in Sources */,
+				A19710AB2764127700519F3D /* TwoFNAtomView.swift in Sources */,
+				A19710B52764127700519F3D /* OneFNBlockSenses.swift in Sources */,
+				A19710BB2764127700519F3D /* FeatureActionViewModel.swift in Sources */,
 				A193E376275ECA9B0053EDB0 /* AppDelegate.swift in Sources */,
+				A19710C02764127700519F3D /* FeatureViewoutSenses.swift in Sources */,
+				A19710B92764127700519F3D /* NewFeatueView.swift in Sources */,
+				A19710BA2764127700519F3D /* FeatureBLockFabric.swift in Sources */,
+				A19710B42764127700519F3D /* OneFNBlockFabric.swift in Sources */,
+				A19710AF2764127700519F3D /* TwoFNBlockViewModel.swift in Sources */,
+				A19710B02764127700519F3D /* OneFNAtomView.swift in Sources */,
+				A19710C12764127700519F3D /* FeatureBlockView.swift in Sources */,
+				A19710AE2764127700519F3D /* TwoFNBlockView.swift in Sources */,
 				A193E378275ECA9B0053EDB0 /* SceneDelegate.swift in Sources */,
+				A19710B22764127700519F3D /* OneFNAtomSenses.swift in Sources */,
+				A19710A82764127700519F3D /* FNTestTwoFeatureNavigator.swift in Sources */,
+				A19710B82764127700519F3D /* NewFeatueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

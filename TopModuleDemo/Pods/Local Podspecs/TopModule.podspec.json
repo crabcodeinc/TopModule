@@ -1,6 +1,6 @@
 {
   "name": "TopModule",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "summary": "Top module for MVVM architecture",
   "description": "This is the best of the best module. Creating by Crab Code",
   "homepage": "https://github.com/crabcodeinc/TopModule",
@@ -14,7 +14,9 @@
   "source": {
     "git": "https://github.com/crabcodeinc/TopModule.git",
     "branch": "main",
-    "tag": "1.0.2"
+    "tag": "1.0.5"
   },
-  "source_files": "TopModule/**/*.{swift,h}"
+  "source_files": "TopModule/**/*.{h,swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

@@ -8,6 +8,7 @@ target 'TopModuleDemo' do
   # Pods for TopModuleDemo
 	
 	pod 'TopModule', :path => "../TopModule"
+	pod 'SnapKit', '~> 5.0.0'
 
   target 'TopModuleDemoTests' do
     inherit! :search_paths
