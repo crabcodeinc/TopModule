@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import TopModule
 
 final class ___VARIABLE_BlockName___BlockFabric {
     
-    static func make___VARIABLE_BlockName___Modul(navigator: FeatureNavigator) -> UIViewController {
+    static func make___VARIABLE_BlockName___Module(navigator: FeatureNavigator) -> UIViewController {
         let atomic___VARIABLE_BlockName___View = ___VARIABLE_BlockName___AtomView()
         let atomic___VARIABLE_BlockName___ViewModel = ___VARIABLE_BlockName___AtomViewModel()
         atomic___VARIABLE_BlockName___View.connect(with: atomic___VARIABLE_BlockName___ViewModel)

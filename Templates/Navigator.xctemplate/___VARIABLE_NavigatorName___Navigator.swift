@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import TopModule
 
 final class ___VARIABLE_NavigatorName___Navigator: GeneralNavigator {
     

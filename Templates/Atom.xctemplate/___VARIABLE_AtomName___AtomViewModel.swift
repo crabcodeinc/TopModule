@@ -7,12 +7,13 @@
 //
 
 import Foundation
+import TopModule
 
-final class ___VARIABLE_AtomName___ViewModel: AtomViewModelProtocol {
+final class ___VARIABLE_AtomName___AtomViewModel: AtomViewModelProtocol {
     
-    var sendToView = Sender<___VARIABLE_AtomName___Senses.ViewModelSense>()
+    var sendToView = Sender<___VARIABLE_AtomName___AtomSenses.ViewModelSense>()
     
-    func sensor(iSense: ___VARIABLE_AtomName___Senses.ViewSense) {
+    func sensor(iSense: ___VARIABLE_AtomName___AtomSenses.ViewSense) {
 //        switch iSense {
 //        // From View
 //        

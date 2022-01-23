@@ -8,12 +8,13 @@
 
 import UIKit
 import SnapKit
+import TopModule
 
-final class ___VARIABLE_AtomName___View: UIView, AtomViewProtocol {
-    var sendToViewModel = Sender<___VARIABLE_AtomName___Senses.ViewSense>()
-    var atomViewModel: AnyViewModel<___VARIABLE_AtomName___Senses.ViewSense, ___VARIABLE_AtomName___Senses.ViewModelSense>?
+final class ___VARIABLE_AtomName___AtomView: UIView, AtomViewProtocol {
+    var sendToViewModel = Sender<___VARIABLE_AtomName___AtomSenses.ViewSense>()
+    var atomViewModel: AnyViewModel<___VARIABLE_AtomName___AtomSenses.ViewSense, ___VARIABLE_AtomName___AtomSenses.ViewModelSense>?
     
-    func sensor(iSense: ___VARIABLE_AtomName___Senses.ViewModelSense) {
+    func sensor(iSense: ___VARIABLE_AtomName___AtomSenses.ViewModelSense) {
          switch iSense {
             case .setupViews:
                 setupViews()

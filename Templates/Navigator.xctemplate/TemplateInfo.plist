@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_NavigatorName___View</string>
+			<string>___VARIABLE_NavigatorName___Navigator</string>
 			<key>Description</key>
 			<string>Navigator name</string>
 			<key>Identifier</key>
