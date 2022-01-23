@@ -35,8 +35,8 @@ final class ___VARIABLE_BlockName___BlockViewModel: AtomViewModelProtocol {
 extension ___VARIABLE_BlockName___BlockViewModel: BlockViewModelProtocol {
     
     func blockSensor(iSense: ___VARIABLE_BlockName___BlockSenses.BlockViewModelSense) {
-        switch iSense {
-        
-        }
+//        switch iSense {
+//        
+//        }
     }
 }
