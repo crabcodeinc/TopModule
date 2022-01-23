@@ -9,7 +9,7 @@
 import Foundation
 import TopModule
 
-final class ___VARIABLE_NavigatorName___Navigator: GeneralNavigator {
+final class ___VARIABLE_BlockName___Navigator: GeneralNavigator {
     
     func begin() {
 //        let vc = FabricClass.makeBlock(navigator: self)
@@ -26,16 +26,16 @@ final class ___VARIABLE_NavigatorName___Navigator: GeneralNavigator {
     }
 }
 
-extension ___VARIABLE_NavigatorName___Navigator: GeneralNavigatorProtocol {
+extension ___VARIABLE_BlockName___Navigator: GeneralNavigatorProtocol {
     
-    func navigatorSensor(iSense: ___VARIABLE_NavigatorName___NavigatorSenses.FlowResult) {
+    func navigatorSensor(iSense: ___VARIABLE_BlockName___NavigatorSenses.FlowResult) {
 //        switch iSense {
 //        
 //        }
     }
 }
 
-final class ___VARIABLE_NavigatorName___NavigatorSenses {
+final class ___VARIABLE_BlockName___NavigatorSenses {
     enum FlowResult {
         
     }

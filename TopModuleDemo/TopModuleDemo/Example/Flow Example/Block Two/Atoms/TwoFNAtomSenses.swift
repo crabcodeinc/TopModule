@@ -10,6 +10,7 @@ final class TwoFNAtomSenses {
     enum ViewSense {
         // from View to ViewModel
         case clickOnPreviousButton
+        
         // from BlockViewModel to ViewModel
         
     }

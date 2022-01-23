@@ -7,11 +7,12 @@
 //
 
 import Foundation
+import TopModule
 
 final class ___VARIABLE_BlockName___BlockViewModel: AtomViewModelProtocol {
     
     // BlockViewModelProtocol
-    var sendToNavigator = SenderNavigator<FeatureNavigator Senses.FlowResult>()
+    var sendToNavigator = SenderNavigator<___VARIABLE_BlockName___NavigatorSenses.FlowResult>()
     
     var sendToView = Sender<___VARIABLE_BlockName___BlockSenses.ViewModelSense>()
     
@@ -34,8 +35,8 @@ final class ___VARIABLE_BlockName___BlockViewModel: AtomViewModelProtocol {
 extension ___VARIABLE_BlockName___BlockViewModel: BlockViewModelProtocol {
     
     func blockSensor(iSense: ___VARIABLE_BlockName___BlockSenses.BlockViewModelSense) {
-        switch iSense {
-        
-        }
+//        switch iSense {
+//        
+//        }
     }
 }
