@@ -12,7 +12,7 @@ import TopModule
 final class ___VARIABLE_BlockName___BlockViewModel: AtomViewModelProtocol {
     
     // BlockViewModelProtocol
-    var sendToNavigator = SenderNavigator<FeatureNavigator Senses.FlowResult>()
+    var sendToNavigator = SenderNavigator<___VARIABLE_BlockName___NavigatorSenses.FlowResult>()
     
     var sendToView = Sender<___VARIABLE_BlockName___BlockSenses.ViewModelSense>()
     

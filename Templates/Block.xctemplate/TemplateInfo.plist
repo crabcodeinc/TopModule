@@ -130,6 +130,20 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___Navigator</string>
+			<key>Description</key>
+			<string>Navigator name</string>
+			<key>Identifier</key>
+			<string>navigatorName</string>
+			<key>Name</key>
+			<string>Navigator:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 	</array>
 	<key>Summary</key>
 	<string>This generates a new Block module using MVVM arc.</string>
