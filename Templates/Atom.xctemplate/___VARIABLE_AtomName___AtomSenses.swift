@@ -6,7 +6,7 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-final class ___VARIABLE_AtomName___Senses {
+final class ___VARIABLE_AtomName___AtomSenses {
     
     enum ViewSense {
         // from View to ViewModel

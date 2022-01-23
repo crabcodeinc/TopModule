@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_AtomName___View</string>
+			<string>___VARIABLE_AtomName___AtomView</string>
 			<key>Description</key>
 			<string>View name</string>
 			<key>Identifier</key>
@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_AtomName___ViewModel</string>
+			<string>___VARIABLE_AtomName___AtomViewModel</string>
 			<key>Description</key>
 			<string>View AtomName name</string>
 			<key>Identifier</key>
@@ -62,7 +62,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_AtomName___Senses</string>
+			<string>___VARIABLE_AtomName___AtomSenses</string>
 			<key>Description</key>
 			<string>Senses name</string>
 			<key>Identifier</key>

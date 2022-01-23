@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import TopModule
 
 final class ___VARIABLE_BlockName___AtomView: UIView, AtomViewProtocol {
     var sendToViewModel = Sender<___VARIABLE_BlockName___AtomSenses.ViewSense>()

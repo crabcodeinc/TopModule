@@ -8,12 +8,13 @@
 
 import UIKit
 import SnapKit
+import TopModule
 
-final class ___VARIABLE_BlockName___BlockView: UIViewController, AtomViewProtocol {
+final class ___VARIABLE_BlockName___BlockViewController: UIViewController, AtomViewProtocol {
     var sendToViewModel = Sender<___VARIABLE_BlockName___BlockSenses.ViewSense>()
     var atomViewModel: AnyViewModel<___VARIABLE_BlockName___BlockSenses.ViewSense, ___VARIABLE_BlockName___BlockSenses.ViewModelSense>?
     
-    var atomicView: ___VARIABLE_BlockName___AtomView
+    let atomicView: ___VARIABLE_BlockName___AtomView
     
     init(atomicView: ___VARIABLE_BlockName___AtomView) {
         self.atomicView = atomicView

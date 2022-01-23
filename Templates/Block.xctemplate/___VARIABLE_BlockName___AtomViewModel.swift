@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import TopModule
 
 final class ___VARIABLE_BlockName___AtomViewModel: AtomViewModelProtocol, AtomicBlockViewModelProtocol {
     
@@ -14,7 +15,7 @@ final class ___VARIABLE_BlockName___AtomViewModel: AtomViewModelProtocol, Atomic
     var sendToBlock = SenderBlock<___VARIABLE_BlockName___BlockSenses.BlockViewModelSense>()
     
     func sensor(iSense: ___VARIABLE_BlockName___AtomSenses.ViewSense) {
-        switch iSense {
+//        switch iSense {
 //        // From View
 //
 //        // From Papa

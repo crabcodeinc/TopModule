@@ -34,11 +34,11 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_BlockName___BlockView</string>
+			<string>___VARIABLE_BlockName___BlockViewController</string>
 			<key>Description</key>
-			<string>Block View name</string>
+			<string>Block ViewController name</string>
 			<key>Identifier</key>
-			<string>blockViewName</string>
+			<string>blockViewControllerName</string>
 			<key>Name</key>
 			<string>View:</string>
 			<key>Required</key>
@@ -125,6 +125,20 @@
 			<string>blockFabricName</string>
 			<key>Name</key>
 			<string>BlockFabric:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_BlockName___Navigator</string>
+			<key>Description</key>
+			<string>Navigator name</string>
+			<key>Identifier</key>
+			<string>navigatorName</string>
+			<key>Name</key>
+			<string>Navigator:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
